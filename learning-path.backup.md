@@ -8,39 +8,31 @@
     * Master the command line (Bash, Zsh):
         * [Linux Command Line Basics](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management) - DigitalOcean tutorial for beginners.
         * [Learn Shell Scripting](https://www.shellscript.sh/) - Interactive shell scripting tutorial.
-        <details>
-        <summary>**Practice:**</summary>
+        * **Practice:**
             * Navigate directories, create/delete/rename files and folders.
             * Use `grep`, `sed`, and `awk` for text processing.
             * Write simple shell scripts to automate tasks.
-        </details>
     * Grasp core data structures and algorithms, understanding their time and space complexity:
         * [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/9780262033848/introduction-to-algorithms/) - Classic textbook.
         * [LeetCode](https://leetcode.com/) - Practice coding problems.
-        <details>
-        <summary>**Practice:**</summary>
+        * **Practice:**
             * Implement linked lists, stacks, queues, and trees.
             * Solve sorting and searching algorithms (e.g., binary search, merge sort).
             * Analyze the time and space complexity of your solutions.
-        </details>
     * Learn to interact with and design APIs (REST, GraphQL):
         * [REST API Tutorial](https://restfulapi.net/) - Introduction to RESTful API concepts.
         * [GraphQL Official Site](https://graphql.org/) - GraphQL documentation.
-        <details>
-        <summary>**Practice:**</summary>
+        * **Practice:**
             * Use `curl` or Postman to interact with public APIs.
             * Create a simple rest API using a python framework like flask, or fastapi.
             * Understand the differences between REST and GraphQL.
-        </details>
     * Become proficient in version control using Git and platforms like GitHub/GitLab/Bitbucket:
         * [Pro Git Book](https://git-scm.com/book/en/v2) - Comprehensive Git documentation.
         * [GitHub Learning Lab](https://lab.github.com/) - Interactive Git and GitHub tutorials.
-        <details>
-        <summary>**Practice:**</summary>
+        * **Practice:**
             * Initialize Git repositories, commit changes, and create branches.
             * Collaborate on projects using pull requests and code reviews.
             * Understand git merge and git rebase.
-        </details>
 * **Programming Proficiency:**
     * **Python (Essential):**
         * [Python Official Documentation](https://docs.python.org/3/) - Official Python documentation.
@@ -49,21 +41,17 @@
         * [Learning Spark: Lightning-Fast Data Analytics](https://www.oreilly.com/library/view/learning-spark-lightning-fast/9781449358624/) - Introduction to Spark with Python.
         * [TensorFlow Documentation](https://www.tensorflow.org/overview) - TensorFlow documentation.
         * [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) - PyTorch documentation.
-        <details>
-        <summary>**Practice:**</summary>
+        * **Practice:**
             * Write Python scripts to manipulate data from CSV and JSON files.
             * Use Pandas and NumPy for data analysis and transformation.
             * Create basic machine learning models using scikit-learn.
-        </details>
     * **SQL (Essential):**
         * [SQLZoo](https://sqlzoo.net/) - Interactive SQL tutorial.
         * [PostgreSQL Documentation](https://www.postgresql.org/docs/) - PostgreSQL documentation.
-        <details>
-        <summary>**Practice:**</summary>
+        * **Practice:**
             * Write SQL queries to filter, sort, and aggregate data.
             * Design and create database tables.
             * Understand SQL joins and subqueries.
-        </details>
     * **Expand Your Horizons (Choose one or more):**
         * Java/Scala (for deep dives into Spark):
             * [Apache Spark Documentation](https://spark.apache.org/docs/latest/) - Apache Spark documentation.
@@ -73,8 +61,7 @@
             * [Effective Go](https://go.dev/doc/effective_go) - Go best practices.
         * Rust (for performance critical systems):
             * [The Rust Programming Language](https://doc.rust-lang.org/book/) - Rust book.
-<details>
-<summary>**Problem-Solving Goals (Phase 1):**</summary>
+* **Problem-Solving Goals (Phase 1):**
     * Automate repetitive file system tasks using shell scripts.
     * Implement basic data structures and algorithms (e.g., sorting, searching).
     * Develop simple API clients to retrieve and process data.
@@ -82,7 +69,6 @@
     * Write Python scripts to manipulate and analyze data from CSV files.
     * Construct SQL queries to extract information from relational databases.
     * Create a small project that uses all of the skills learned in phase one.
-</details>
     
 ## Phase 2: Data Storage and Management - Mastering Data Systems
 
@@ -93,14 +79,12 @@
     * [MySQL Official Site](https://www.mysql.com/) - Official MySQL website.
     * Cloud-native equivalents (e.g., Google Cloud SQL, AWS RDS):
         * [AWS RDS Documentation](https://aws.amazon.com/rds/getting-started/) - Amazon Relational Database Service documentation.
-        * [Google Cloud SQL Documentation](https://cloud.google.com/sql/docs)
-        <details>
-        <summary>**Practice:**</summary>
-            * Design database schemas based on real-world scenarios.
-            * Implement normalization techniques (1NF, 2NF, 3NF).
-            * Optimize SQL queries for performance.
-            * Setup and manage a cloud based relational database.
-        </details>
+        * [Google Cloud SQL Documentation](https://cloud.google.com/sql/docs) - Google Cloud SQL documentation.
+    * **Practice:**
+        * Design database schemas based on real-world scenarios.
+        * Implement normalization techniques (1NF, 2NF, 3NF).
+        * Optimize SQL queries for performance.
+        * Setup and manage a cloud based relational database.
 * **NoSQL Databases:**
     * Document databases (MongoDB, Couchbase):
         * [MongoDB Documentation](https://www.mongodb.com/docs/) - MongoDB official documentation.
@@ -111,12 +95,10 @@
         * [Cassandra Documentation](https://cassandra.apache.org/doc/latest/) - Apache Cassandra official documentation.
     * Graph databases (Neo4j):
         * [Neo4j Documentation](https://neo4j.com/docs/) - Neo4j official documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Choose the appropriate NoSQL database type for specific data models and use cases.
         * Implement CRUD operations in each type of NoSQL database.
         * Understand eventual consistency and other NoSQL concepts.
-    </details>
 * **Data Warehousing and Data Lakes:**
     * Cloud data warehousing platforms (Snowflake, BigQuery, Amazon Redshift):
         * [Snowflake Documentation](https://docs.snowflake.com/en/) - Snowflake official documentation.
@@ -133,23 +115,19 @@
     * Metadata Management:
         * [Apache Atlas](https://atlas.apache.org/) - Apache Atlas official website.
         * [AWS Glue](https://aws.amazon.com/glue/) - AWS Glue official website.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Design data warehouse schemas (star schema, snowflake schema).
         * Build ETL/ELT pipelines using SQL and scripting languages.
         * Implement data lake storage strategies.
         * Utilize data lakehouse technologies to enable ACID transactions on data lakes.
         * Setup a data catalog.
-    </details>
-<details>
-<summary>**Problem-Solving Goals (Phase 2):**</summary>
+* **Problem-Solving Goals (Phase 2):**
     * Design and implement relational database schemas for specific applications.
     * Choose and implement the appropriate NoSQL database for various data storage needs.
     * Build data pipelines to load data into a cloud data warehouse.
     * Organize and query large datasets stored in a data lake.
     * Implement and utilize a data catalog for a given dataset.
     * Create a project that ingests data from multiple sources into a data warehouse or datalake.
-</details>
 
 ## Phase 3: Data Processing and Orchestration - Building Data Pipelines
 
@@ -166,23 +144,19 @@
         * [Databricks Documentation](https://docs.databricks.com/) - Databricks official documentation.
         * [AWS EMR Documentation](https://docs.aws.amazon.com/emr/index.html) - AWS Elastic MapReduce official documentation.
         * [Google Cloud Dataproc Documentation](https://cloud.google.com/dataproc/docs) - Google Cloud Dataproc official documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Develop serverless functions for data transformation and processing.
         * Containerize data processing applications using Docker.
         * Deploy and manage applications on Kubernetes clusters.
         * Utilize cloud-based Spark solutions for large-scale data processing.
-    </details>
 * **Data Processing Frameworks:**
     * [Apache Spark Documentation](https://spark.apache.org/docs/latest/) - Apache Spark official documentation.
     * [Apache Flink Documentation](https://flink.apache.org/docs/stable/) - Apache Flink official documentation.
     * [Dask Documentation](https://docs.dask.org/en/stable/) - Dask official documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Implement batch and stream processing pipelines using Spark.
         * Develop real-time data processing applications using Flink.
         * Use Dask for parallel data analysis in Python.
-    </details>
 * **Message Queues and Workflow Orchestration:**
     * [Apache Kafka Documentation](https://kafka.apache.org/documentation/) - Apache Kafka official documentation.
     * [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html) - RabbitMQ official documentation.
@@ -196,21 +170,17 @@
         * [AWS Step Functions Documentation](https://docs.aws.amazon.com/step-functions/index.html) - AWS Step Functions official documentation.
         * [Google Cloud Workflows Documentation](https://cloud.google.com/workflows/docs) - Google Cloud Workflows official documentation.
         * [Azure Logic Apps Documentation](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) - Azure Logic Apps official documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Implement message queues for asynchronous data processing.
         * Design and build data pipelines using workflow orchestration tools.
         * Monitor and manage data pipeline execution.
-    </details>
-<details>
-<summary>**Problem-Solving Goals (Phase 3):**</summary>
+* **Problem-Solving Goals (Phase 3):**
     * Build a real-time data pipeline for streaming data from a message queue to a data lake.
     * Implement a batch processing pipeline using Spark to transform and load data into a data warehouse.
     * Orchestrate complex data workflows using Airflow or a similar tool.
     * Deploy and manage data processing applications on a Kubernetes cluster.
     * Implement a serverless data transformation pipeline.
     * Create a project that implements a data pipeline from start to finish, from data ingestion to consumption.
-</details>
 
 ## Phase 4: Cloud and Infrastructure - Deploying and Managing Data Systems
 
@@ -229,50 +199,43 @@
         * [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/index.html) - AWS Virtual Private Cloud documentation.
         * [Google Cloud VPC Documentation](https://cloud.google.com/vpc/docs) - Google Cloud Virtual Private Cloud documentation.
         * [Azure Virtual Network Documentation](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) - Azure Virtual Network documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Deploy and manage cloud resources using Infrastructure as Code.
         * Design and implement secure cloud networking architectures.
         * Monitor and manage cloud infrastructure using cloud-native tools.
         * Create and maintain cloud based data engineering environments.
-    </details>
 * **Container Orchestration:**
     * Kubernetes (EKS, GKE, AKS):
         * [Kubernetes Documentation](https://kubernetes.io/docs/home/) - Kubernetes official documentation.
         * [Amazon EKS Documentation](https://docs.aws.amazon.com/eks/index.html) - Amazon Elastic Kubernetes Service documentation.
         * [Google GKE Documentation](https://cloud.google.com/kubernetes-engine/docs) - Google Kubernetes Engine documentation.
         * [Azure AKS Documentation](https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes) - Azure Kubernetes Service documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Deploy and manage containerized data applications on Kubernetes clusters.
         * Implement Kubernetes services and deployments.
         * Use Kubernetes for scaling and managing data processing workloads.
-    </details>
 * **CI/CD Implementation:**
     * GitOps, automated testing, and deployment:
         * [GitOps Documentation](https://www.weave.works/technologies/gitops/) - GitOps principles and practices.
         * [Jenkins Documentation](https://www.jenkins.io/doc/) - Jenkins official documentation.
         * [GitHub Actions Documentation](https://docs.github.com/en/actions) - GitHub Actions documentation.
         * [Azure DevOps Documentation](https://learn.microsoft.com/en-us/azure/devops/) - Azure DevOps Documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Implement CI/CD pipelines for data engineering applications.
         * Automate testing and deployment of data pipelines.
         * Utilize GitOps for infrastructure and application deployment.
-    </details>
-<details>
-<summary>**Problem-Solving Goals (Phase 4):**</summary>
+* **Problem-Solving Goals (Phase 4):**
     * Deploy a data warehouse on a cloud platform using Infrastructure as Code.
     * Implement a Kubernetes cluster for running data processing applications.
     * Build a CI/CD pipeline for deploying data pipelines.
     * Design and implement a secure cloud networking architecture for a data platform.
     * Automate the deployment of data engineering environments.
     * Create a project that provisions and manages a complete cloud based data engineering environment.
-</details>
 
 ## Phase 5: Data Governance, Security, and Emerging Trends - Ensuring Data Quality and Staying Ahead
 
 **Goal:** Develop expertise in data governance, security, and stay abreast of emerging technologies.
+
 * **Data Governance and Security:**
     * Data cataloging, lineage, and quality management:
         * [Apache Atlas](https://atlas.apache.org/) - Apache Atlas official website.
@@ -285,13 +248,11 @@
         * [AWS IAM Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/index.html) - AWS Identity and Access Management documentation.
         * [Google Cloud IAM Documentation](https://cloud.google.com/iam/docs) - Google Cloud Identity and Access Management documentation.
         * [Azure AD Documentation](https://learn.microsoft.com/en-us/azure/active-directory/) - Azure Active Directory documentation.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Implement data cataloging and lineage tracking for data assets.
         * Design and implement data quality checks and monitoring.
         * Ensure data privacy and compliance with relevant regulations.
         * Implement data access control policies and security measures.
-    </details>
 * **Emerging Trends:**
     * AI/ML integration (MLOps, feature engineering, vector databases):
         * [MLOps Guide](https://martinfowler.com/articles/mlops.html) - Martin Fowler's MLOps article.
@@ -305,15 +266,12 @@
         * [Data Fabric Overview](https://www.oracle.com/data-management/data-fabric/) - Oracle Data Fabric overview.
     * Low-code/no-code data engineering tools:
         * [Low-Code/No-Code Platforms](https://www.gartner.com/en/topics/low-code-no-code) - Gartner's Low-Code/No-Code platforms overview.
-    <details>
-    <summary>**Practice:**</summary>
+    * **Practice:**
         * Integrate ML models into data pipelines using MLOps practices.
         * Develop real-time data analytics applications.
         * Understand and apply data mesh and data fabric principles.
         * Evaluate and utilize low-code/no-code data engineering tools.
-    </details>
-<details>
-<summary>**Problem-Solving Goals (Phase 5):**</summary>
+* **Problem-Solving Goals (Phase 5):**
     * Implement a data governance framework for a data platform.
     * Design and implement a data security plan for cloud-based data assets.
     * Build an MLOps pipeline for deploying and managing machine learning models.
@@ -321,4 +279,3 @@
     * Design a data mesh architecture for a distributed data environment.
     * Evaluate and recommend a low-code/no-code data engineering tool for a specific use case.
     * Create a project that implements end to end data governance, security, and emerging technology concepts.
-</details>
